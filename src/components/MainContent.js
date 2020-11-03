@@ -21,7 +21,7 @@ function MainContent({
   return (
     <Card className="mainContent">
       <div className="mainContent__header">
-        <h1 className="mainContent__title">Convid Tracker</h1>
+        <h1 className="mainContent__title">CoVid 19 Tracker</h1>
         <FormControl className="mainContent__dropdown">
           <Select value={country} onChange={onCountryChange}>
             <MenuItem value="worldwide">Worldwide</MenuItem>
