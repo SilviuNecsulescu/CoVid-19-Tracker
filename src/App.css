@@ -1,0 +1,29 @@
+body {
+  background: #f5f6fa;
+}
+
+.app {
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.app__mainContent {
+  flex: 0.7;
+}
+
+.app__sidebar {
+  flex: 0.3;
+}
+.app__mainContent,
+.app__sidebar {
+  padding: 10px;
+}
+@media (max-width: 1024px) {
+  .app {
+    flex-direction: column;
+  }
+}
