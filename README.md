@@ -1,2 +1,2 @@
 # netflix-clone
-This is a Netflix clone project build in ReactJs
+This is a Netflix clone project build in ReactJs, Redux, Firebase
